@@ -7,7 +7,9 @@ import {
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hola, Coder! 😘</Text>
+      <Text>
+        Hola, Coder! 😘
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
