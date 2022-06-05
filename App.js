@@ -1,25 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { 
-  StyleSheet, 
-  Text, 
-  View } from 'react-native';
+import { styledContainer } from './src/styles/components/container'
+import { View } from 'react-native';
+import { Home } from './src/views/index'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>
-        Hola, Coder! 😘
-      </Text>
+    <View style={styledContainer}>
+      <Home />
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
