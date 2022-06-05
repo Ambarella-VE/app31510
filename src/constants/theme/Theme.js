@@ -3,7 +3,16 @@ import { StyleSheet } from "react-native";
 export const theme = StyleSheet.create({
   colors:{
     dark:{
-      backgroundColor:'#253c78'
+      primary:'#e76b74',
+      onSurface: '#ffffff',
+      surface :'#585b56',
+    }
+  },
+  text:{
+    title:{
+      large:{
+        fontSize:22,
+      }
     }
   }
 });
